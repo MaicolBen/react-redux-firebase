@@ -4,7 +4,6 @@ examples/**/node_modules
 coverage
 dist
 es
-lib
 _book
 # Logs
 *.log
