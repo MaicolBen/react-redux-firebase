@@ -2,8 +2,6 @@
 node_modules
 examples/**/node_modules
 coverage
-dist
-es
 _book
 # Logs
 *.log
