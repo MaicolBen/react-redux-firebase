@@ -6,10 +6,7 @@
  *   firebase = require('firebase');
  */
 
-var firebase = require('./app')
-require('./database')
-require('./auth')
-require('./storage')
+import * as firebase from 'firebase'
 var AsyncStorage = require('react-native').AsyncStorage
 firebase.INTERNAL.extendNamespace({
  'INTERNAL': {
