@@ -6,6 +6,7 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "jsnext:main": "es/index.js",
+  "react-native": "lib/index-native.js",
   "scripts": {
     "clean": "rimraf dist",
     "lint": "eslint src/** test/**",

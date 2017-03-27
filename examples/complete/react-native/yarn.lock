@@ -1314,9 +1314,9 @@ find-up@^1.0.0:
     path-exists "^2.0.0"
     pinkie-promise "^2.0.0"
 
-firebase@3.7.1:
-  version "3.7.1"
-  resolved "https://registry.yarnpkg.com/firebase/-/firebase-3.7.1.tgz#8e10d18d79bde61c2379b31dffb73a9094aa9873"
+firebase@^3.7.3:
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/firebase/-/firebase-3.7.3.tgz#5f143638a84874095a7faf411589e059ac419ccc"
   dependencies:
     dom-storage "2.0.2"
     faye-websocket "0.9.3"
@@ -2396,12 +2396,12 @@ react-proxy@^1.1.7:
     lodash "^4.6.1"
     react-deep-force-update "^1.0.0"
 
-react-redux-firebase@^1.4.0-alpha:
-  version "1.4.0-alpha"
-  resolved "https://registry.yarnpkg.com/react-redux-firebase/-/react-redux-firebase-1.4.0-alpha.tgz#e5bba53af49d86eb93922d514fa8baec35155b89"
+react-redux-firebase@^1.4.0-beta:
+  version "1.4.0-beta"
+  resolved "https://registry.yarnpkg.com/react-redux-firebase/-/react-redux-firebase-1.4.0-beta.tgz#7c84cd7fcbdc1e63666016c49f52db46ac5c89ad"
   dependencies:
     es6-promise "^4.0.5"
-    firebase "3.7.1"
+    firebase "^3.7.3"
     immutable "^3.8.1"
     jwt-decode "^2.1.0"
     lodash "^4.17.4"
