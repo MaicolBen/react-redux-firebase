@@ -16,6 +16,10 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _hoistNonReactStatics = require('hoist-non-react-statics');
+
+var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
+
 var _query = require('./actions/query');
 
 var _utils = require('./utils');
@@ -142,7 +146,7 @@ exports.default = function () {
     };
 
 
-    return FirebaseConnect;
+    return (0, _hoistNonReactStatics2.default)(FirebaseConnect, WrappedComponent);
   };
 };
 
